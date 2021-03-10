@@ -23,4 +23,20 @@ public class Funcionario {
     public void promover(Cargo novoCargo) {
 		dadosPessoais.setCargo(novoCargo);
     }
+
+	public DadosPessoais getDadosPessoais() {
+		return dadosPessoais;
+	}
+
+	public void setDadosPessoais(DadosPessoais dadosPessoais) {
+		this.dadosPessoais = dadosPessoais;
+	}
+
+	public LocalDate getDataUltimoReajuste() {
+		return dataUltimoReajuste;
+	}
+
+	public void setDataUltimoReajuste(LocalDate dataUltimoReajuste) {
+		this.dataUltimoReajuste = dataUltimoReajuste;
+	}
 }
